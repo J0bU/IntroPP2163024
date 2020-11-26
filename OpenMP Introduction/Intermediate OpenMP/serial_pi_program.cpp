@@ -29,6 +29,6 @@ int main()
     auto diff = duration_cast<microseconds>(t2-t1);
 
     cout << pi << "\n";
-    cout << diff.count();
+    cout << "Time: " << diff.count();
     return 0;
 }
