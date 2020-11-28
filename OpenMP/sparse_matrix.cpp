@@ -8,6 +8,7 @@ using namespace std;
 
 int main(){
 
+      freopen("in.txt", "r", stdin);
 
      // Initializations 
     int n, m, c, d, matrix[10][10];
@@ -18,6 +19,8 @@ int main(){
 
     // Assign this values to m and n.
     cin >> m >> n;
+    cout << m << endl;
+    cout << n << endl;
 
 
     cout << "\nEnter the " <<m*n<< " elements of the matrix \n\n";

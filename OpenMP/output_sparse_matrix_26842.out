@@ -1,0 +1,18 @@
+
+Enter the number of rows and columns of the matrix 
+
+
+Enter the 4 elements of the matrix 
+
+Enter the position [0][0]: Enter the position [0][1]: Enter the position [1][0]: Enter the position [1][1]: 
+
+The entered matrix is: 
+
+	0	0
+	0	1
+
+
+The entered matrix is a sparse matrix
+
+
+	Time: 2258

@@ -21,6 +21,9 @@ using namespace std;
 
 int main(){
 
+    freopen("in.txt", "r", stdin);
+
+
     // Initializations 
     int n, m, c, d, matrix[10][10];
     int counter = 0;
@@ -31,10 +34,7 @@ int main(){
     // Assign this values to m and n.
     cin >> m >> n;
 
-
     cout << "\nEnter the " <<m*n<< " elements of the matrix \n\n";
-
-  
   
     for(c = 0; c < m; c++)   // to iterate the rows
     {   
@@ -46,8 +46,6 @@ int main(){
             counter++;  // same as counter=counter +1
         }
     }
-    
-
 
     // printing the matrix
     cout << "\n\nThe entered matrix is: \n\n";
@@ -72,15 +70,12 @@ int main(){
             }
             cout <<"\n"; // to take the control to the next row
         }
-
-
     }
 
     // t2: Create a second point time.
     
     auto t2 = clk :: now();
     auto diff = duration_cast<microseconds>(t2-t1);
-
 
     // checking if the matrix is sparse or not
     if(counter > (m*n)/2)
