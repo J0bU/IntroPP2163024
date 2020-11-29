@@ -21,10 +21,10 @@ calcular la cantidad de ceros que hay en dicha matriz por medio de un contador y
 - *Ejecución código paralelizado C++*:
     - 1. Compilación código mediante el comando: ```g++ -fopenmp omp_sparse_matrix.cpp -o omp_sparse_matrix ```, posteriormente para ejecución directa usar ./omp_sparse_matrix (necesario compilar antes)
     - 2. Ejecución del código compilado mediante el uso de ```./omp_sparse_matrix ```
-    - 3. Para la inserción de datos se hace mediante el archivo ``` in.txt `` los dos primeros números hacen referencia a los valores m y n, los y los demás números son la cantidad de valores que contendrá la matriz. (En este caso se definió una sparse matrix con los valores 0 0 0 1).
+    - 3. Para la inserción de datos se hace mediante el archivo ``` in.txt ``` los dos primeros números hacen referencia a los valores m y n, los y los demás números son la cantidad de valores que contendrá la matriz. (En este caso se definió una sparse matrix con los valores 0 0 0 1).
 
 - *Ejecución código Guane-1*:
-    - 1. Compilación código mediante el comando: ```g++ -fopenmp omp_sparse_matrix.cpp -o omp_sparse_matrix
+    - 1. Compilación código mediante el comando: ```g++ -fopenmp omp_sparse_matrix.cpp -o omp_sparse_matrix```
     - 2. Ejecución del código compilado mediante el uso de ```./omp_sparse_matrix ```
     - 3. *Otra opción*: correr el archivo sbatch ya que allí contiene la ejecución. ``` sbatch  sparse_matrix.sbatch ```
 
