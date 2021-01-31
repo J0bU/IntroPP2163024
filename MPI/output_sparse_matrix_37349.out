@@ -1,0 +1,35 @@
+
+Enter the number of rows and columns of the matrix 
+
+Process numer 0 sent 10 to the process 0
+process 0 have received 10
+Process 0 minus 1
+Process 0 sents 9 to the process 0
+process 0 have received 9
+Process 0 minus 1
+Process 0 sents 8 to the process 0
+process 0 have received 8
+Process 0 minus 1
+Process 0 sents 7 to the process 0
+process 0 have received 7
+Process 0 minus 1
+Process 0 sents 6 to the process 0
+process 0 have received 6
+Process 0 minus 1
+Process 0 sents 5 to the process 0
+process 0 have received 5
+Process 0 minus 1
+Process 0 sents 4 to the process 0
+process 0 have received 4
+Process 0 minus 1
+Process 0 sents 3 to the process 0
+process 0 have received 3
+Process 0 minus 1
+Process 0 sents 2 to the process 0
+process 0 have received 2
+Process 0 minus 1
+Process 0 sents 1 to the process 0
+process 0 have received 1
+Process 0 minus 1
+Process 0 sents 0 to the process 0
+Process 0 ends
